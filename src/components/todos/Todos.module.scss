@@ -1,0 +1,35 @@
+.main {
+    width: 30rem;
+    height: 30rem;
+    background-color: black;
+    padding: 2rem 1rem;
+    border-radius: 2rem ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+        .todo {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: .3rem
+        }
+        h1 {
+            border-bottom: 1px;
+            border-color: white;
+            margin: 0;
+        }
+        h3 {
+            margin: 0;
+        }
+}
+
+.separator {
+    width: 100%;
+    height: 1px;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: white;
+}

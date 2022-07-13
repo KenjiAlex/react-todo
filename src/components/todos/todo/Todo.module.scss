@@ -1,0 +1,51 @@
+.main {
+    width: calc(100% - 2rem);
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    svg {
+        color: black;
+        font-weight: 900;
+        font-size: larger;
+        padding: 0;
+        transition: .3s ease-in-out;
+    }
+    textarea {
+        resize: none;
+        width: 90%;
+        height: 70%;
+        border: 0;
+        font-size: larger;
+        font-weight: bolder;
+        &:disabled {
+            color: black;
+        }
+        &:focus {
+            outline: 0;
+        }
+    }
+    button {
+        border: 0;
+        background-color: white;
+        height: 2rem;
+        width: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100%;
+        transition: .3s ease-in-out;
+        &:hover {
+            background-color: black;
+            svg {
+                color: white;
+            }
+        }
+    }
+}
+
+
