@@ -9,5 +9,6 @@ const App = () => {
     </div>
   )
 }
+//some comment
 
 export default App
