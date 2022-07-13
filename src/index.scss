@@ -5,11 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(black, rgb(112, 112, 112));
 }
 
 @media screen and (max-width: 600px) {
   body {
-    background-color: black;
+    background: black;
   }
 }
 
